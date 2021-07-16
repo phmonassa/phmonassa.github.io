@@ -1,50 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Home</title>
+        <title>Bem vindo</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-        
+         <!--Google Fonts-->
+        <link 
+            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" 
+            rel="stylesheet">
+
+        <!--Font Awesome-->
+        <link 
+            rel="stylesheet" 
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+            crossorigin="anonymous">
+
+        <!--Meu estilo-->
+        <link rel="stylesheet" href="style.css">
 		<script src="https://dfilittobot.herokuapp.com/assets/modules/channel-web/inject.js"></script>
     </head>
     <body>
-        <header>
-            <ul>
-                <li><a class="menu-link" href="index.html">Início</a></li>                        
-            </ul>            
-        </header>
 
+	<script>
+		window.botpressWebChat.init({ host: 'https://dfilittobot.herokuapp.com/', botId: 'dfilitto' })
+	</script>
         <main class="container">
-            <article class="super-card">
-                <section class="super-card-img">
-                    <img src="./img/covid-19.jpg" alt="Foto do covid-19", title="Covid-19">
-                    <h2>Covid-19</h2>
+            <article>
+                <section class="foto-social">
+                    <div class="foto">
+                        <img src="virus.jpg" alt="Minha foto" title="colocar meu nome">
+                    </div>
+                    <ul class="social">
+                        <li>  
+                            <a href="https://www.instagram.com/who/?hl=pt-br" target="_blank">
+                                <span class="fab fa-linkedin-in"></span>
+                            </a>
+                        </li>
+                            <a href="https://www.youtube.com/watch?v=0DL5Bqtvjx8" target="_blank">
+                                    <span class="fab fa-youtube"></span>
+                            </a>
+                        </li>
+                            <a href="https://www.facebook.com/OPASOMSBrasil">
+                                <span class="fab fa-facebook-f"></span>
+                            </a>	
+                        </li>
+
+                    </ul>
                 </section>
-                <section class="super-card-text">
-                    <p>
-                        Meu nome é Danilo Filitto, sou Mestre em Ciência da Computação pela 
-                        Universidade Estadual de Maringá – UEM, Pós-Graduado em Redes de Computadores 
-                        e Comunicação de Dados pela Universidade do Estado do Paraná – UEL, Bacharel 
-                        em Ciência da Computação pela Universidade do Oeste Paulista – UNOESTE.
-                    </p>
-                    <p>
-                        Atuo na área acadêmica como professor desde 2006. 
-                        Atualmente leciono na UNOESTE (Universidade do Oeste Paulista) e no SENAC 
-                        (Serviço Nacional de Aprendizagem Comercial) da cidade de Presidente Prudente. 
-                        Além de professor sou desenvolvedor de jogos e palestrante.
-                    </p>
-                    <p>
-                        As Área de Pesquisa em qual atuo são: desenvolvimento de Softwares, 
-                        estrutura de dados, processamento de imagens digitais, 
-                        redes de computadores e desenvolvimento de jogos..
-                    </p>
+                <section class="texto">
+            <h1>O que é o novo coronavírus?</h1>
+            <p>É um vírus que causa uma doença respiratória —a covid-19— pelo agente coronavírus, identificado em dezembro de 2019 na China. Os coronavírus são uma grande família viral, conhecidos desde meados de 1960, que causam infecções respiratórias em seres humanos e em animais. Geralmente, infecções por coronavírus causam doenças respiratórias leves a moderadas, semelhantes a um resfriado comum. Alguns coronavírus podem causar doenças graves com impacto importante em termos de saúde pública, como a Sars (Síndrome Respiratória Aguda Grave), identificada em 2002 e a Mers (Síndrome Respiratória do Oriente Médio), identificada em 2012.</p>
+            <h1>Por que a doença foi batizada de covid-19?</h1>
+		    <p>"Co" significa corona, "vi" vem de vírus, e "d" representa "doença". O número 19 indica o ano de sua aparição, 2019. Esse nome substitui o de 2019-nCoV, decidido provisoriamente após o surgimento da doença respiratória. O novo nome foi escolhido por ser fácil de pronunciar e não ter referência estigmatizante a um país ou a uma população em particular.<p>
+		    <h1> Curiosidades sobre COVID-19 </h1>
+            <p> 1. O vírus não se reproduz sozinho, ele precisa de uma célula hospedeira para fazer isso e continuar a infecção
+2. Não existe bochecho capaz de matar o vírus
+3. O vírus é transmitido por meio de aspiração aérea ou pelo contato com a mucosa, por isso é importante lavar as mãos para que não ele não seja levado da pele  para as vias aéreas, boca e/ou olho principalmente
+4. O vírus está presente na saliva e as gotículas podem ser capaz de transmitir a doença a outras pessoas por tosse ou conversa
+5. O COVID-19 afeta principalmente as células do pulmão e intestino, mas temos visto relato de outras células sendo afetadas como orofaringe e língua.
+6. Foi encontrado carga viral alta em dorso de língua (parte superior da língua), por isso que um dos sintomas pode ser a perda de paladar, inclusive pode ser o único
+7. A perda de olfato pode ser um outro e único sintoma
+8. A parte posterior da faringe concentra também uma alta carga viral
+9. Essa é a sexta pandemia que o mundo vive
+10. O vírus não é capaz de entrar na pele, apenas em mucosas (boca, nariz, olhos, etc)
+			    11. O álcool com concentração menor que 70 não é eficaz para desinfecção </p>
+                    
+                                          
                 </section>
             </article>
         </main>
     </body>
-</html>
